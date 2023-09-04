@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(49, 47, 25);
+    color: aliceblue;
+
+}
+/* "*" er et wildcard som ligger til alle elementer */
+* {
+    margin: 0px;
+}
+/* Header */
+header {
+    background-color: orangered;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+}
+
+main {
+    flex-grow: 1;
+}
+/* Class */
+.navbar {
+    background-color: aqua;
+    color: blueviolet;
+    text-shadow: 0px 0px 2px black;
+}
+
+/* ID */
+#block-inline-elements {
+    background-color: cornflowerblue;
+}
+
+#semantichtml {
+    background-color: brown;
+}
+
+/* Kombinerte selector child selector */
+.navbar > nav > ul li {
+    display: inline;
+}
